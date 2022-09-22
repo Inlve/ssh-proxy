@@ -1,0 +1,27 @@
+{
+  "name": "ssh-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node bootstrap",
+    "start": "cross-env NODE_ENV=production node bootstrap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "cross-env": "^7.0.3",
+    "i": "^0.3.7",
+    "is-root": "^2.1.0",
+    "npm": "^8.19.2",
+    "ssh2": "^1.11.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.19",
+    "@types/node": "^16.11.59",
+    "@types/ssh2": "^1.11.5"
+  }
+}
